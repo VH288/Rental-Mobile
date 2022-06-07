@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/font/font.xml" value="0.17239583333333333" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_aset_customer.xml" value="0.12239583333333333" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_customer.xml" value="0.16666666666666666" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_data_riwayat_customer.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_data_riwayat_driver.xml" value="0.11979166666666667" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_detil_data_aset.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_driver.xml" value="0.11041666666666666" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_edit_profile_driver.xml" value="0.22" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_laporan1.xml" value="0.22" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_laporan3.xml" value="0.11979166666666667" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_laporan4.xml" value="0.11979166666666667" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_laporan5.xml" value="0.10625" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_laporans2.xml" value="0.14114583333333333" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_list_rating.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_manager.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_mobil_customer.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_profile_customer.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_profile_driver.xml" value="0.22" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_promo.xml" value="0.18614130434782608" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_rating.xml" value="0.22" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_riwayat_customer.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_riwayat_transaksi_customer.xml" value="0.15104166666666666" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_riwayat_transaksi_driver.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/activity_terkini.xml" value="0.159375" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/item_aset.xml" value="0.22" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/item_rating.xml" value="0.3333333333333333" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/item_riwayat.xml" value="0.1" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/layout/item_riwayat_driver.xml" value="0.3333333333333333" />
+        <entry key="..\:/VH/Kuliah/Semester 6/Proyek Pengembangan Perangkat Lunak/Rental/app/src/main/res/menu/menu_list_manager.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

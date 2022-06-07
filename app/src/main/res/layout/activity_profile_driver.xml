@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Note: A RecyclerView can also be used -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/design_default_color_primary_dark"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtDriverName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginEnd="60dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        android:text="User Name"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/dm_sans_bold"
+                        android:textAppearance="?attr/textAppearanceHeadline5"/>
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:text="email@gmail.com"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/dm_sans_medium"
+                        android:textAppearance="?attr/textAppearanceBody1"/>
+                    <TextView
+                        android:id="@+id/txtAvailable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:textAlignment="center"
+                        android:text="available"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/dm_sans_medium"
+                        android:textAppearance="?attr/textAppearanceBody1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Birthdate"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+                        <TextView
+                            android:id="@+id/txtTgllahir"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="02-01-2001"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:text="Nomor Telepon"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+                        <TextView
+                            android:id="@+id/txtNotelp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Nama Sekolah"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:text="Gender"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+                        <TextView
+                            android:id="@+id/txtGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Gender"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:text="Bahasa"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+                        <TextView
+                            android:id="@+id/txtBahasa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Bahasa"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:text="Harga"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+                        <TextView
+                            android:id="@+id/txtHarga"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Harga"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:text="Rating"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+                        <TextView
+                            android:id="@+id/txtAvgrating"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Average Rating"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:layout_marginStart="50dp">
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnUbahStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Set Status"
+                            app:backgroundTint="@color/black"/>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Tampil Rating"
+                            app:backgroundTint="@color/black"/>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnEditProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="@font/dm_sans_medium"
+                            android:text="Edit"
+                            app:backgroundTint="@color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Scrollable content -->
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

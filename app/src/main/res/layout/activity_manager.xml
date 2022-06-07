@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLaporan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Laporan Penyewaan Mobil"
+            app:backgroundTint="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLaporan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Laporan Pendapatan Transaksi"
+            app:backgroundTint="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLaporan3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Laporan Driver Transaksi Terbanyak"
+            app:backgroundTint="@color/black" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLaporan4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Laporan Performa Driver"
+            app:backgroundTint="@color/black" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLaporan5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Laporan Customer Transaksi Terbanyak"
+            app:backgroundTint="@color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

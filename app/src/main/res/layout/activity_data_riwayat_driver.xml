@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataRiwayatDriverActivity">
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Informasi Transaksi"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Nama Customer"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtNamaCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Nama Customer"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Nama Mobil"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtNamaMobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Nama Mobil"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Nomor Plat Mobil"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtNomorPlat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Nomor Plat Mobil"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Tanggal Pemesanan"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtTglPemesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Tanggal Pemesanan"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Tanggal Mulai Sewa"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtTglMulai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Tanggal Mulai sewa"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Tanggal Selesai Sewa"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtTglSelsai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Tanggal Selesai sewa"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Durasi Driver"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtDurasiDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Durasi Driver"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Durasi Mobil"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtDurasiMobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Durasi Mobil"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Total Harga"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dm_sans_medium"
+            android:text="Total Harga"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
